@@ -1,7 +1,7 @@
 ---
 # tasks file for security
 - name: copy banner
-  copy: src=banner dist=/etc/ssh/
+  copy: src=banner dest=/etc/ssh/
 
 - name: edit config
   lineinfile:

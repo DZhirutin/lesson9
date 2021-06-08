@@ -1,5 +1,5 @@
 ---
-  - name: web-server configuration
+  - name: build configuration
     hosts: buildapp
     become: yes
 
@@ -8,7 +8,7 @@
       - webserver
       - security
   
-  - name: db config
+  - name: prod config
     hosts: prod
     become: yes
 
