@@ -1,0 +1,17 @@
+---
+  - name: web-server configuration
+    hosts: buildapp
+    become: yes
+
+    roles:
+      - common
+      - webserver
+      - security
+  
+  - name: db config
+    hosts: prod
+    become: yes
+
+    roles:
+      - common
+      - security
