@@ -9,4 +9,6 @@
 Шаг 4: ansible-playbook -i hosts roles2.yml
 
 Шаг 5: http://ip-address-instances:8080/hello-1.0/
+
+Шаг 6
    
