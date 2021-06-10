@@ -1,0 +1,4 @@
+---
+# defaults file for prod
+src_folder: /tmp
+dest_folder: /var/lib/tomcat9/webapps/
