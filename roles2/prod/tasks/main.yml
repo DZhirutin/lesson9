@@ -1,9 +1,0 @@
----
-# tasks file for prod
-    - name: Install tomcat
-      apt: name=tomcat9 state=present
-      notify:
-        - restart tomcat9
-
-    - name: Copy .war from local host to remote host
-      copy: src={{ src_folder }}/hello-1.0.war dest={{ dest_folder }} 
